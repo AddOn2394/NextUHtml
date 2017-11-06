@@ -48,9 +48,34 @@
                 <td>Guatemala</td>
                 <td>No</td>                
             </tr>
-
         </tbody>
     </table>
-
+    <br>
+    <form action="" name="FrmEstudios" title="Agregar Estudios">
+        <legend><strong>Agregar Estudios</strong> </legend>
+        <label for="Ano"><strong>Año:</strong> </label>
+        <select name="Ano">
+            <option value="option1">2016</option>
+            <option value="option2">2017</option>
+            <option value="option3">2018</option>
+        </select>
+        <br>
+        <label for="Institucion"><strong>Institución: </strong></label>
+        <input type="text" name="Institucion" id="Instutucion" required>
+        <br>
+        <label for="Lugar"><strong>Lugar: </strong></label>
+        <input type="text" name="Lugar" id="Lugar">
+        <br>
+        <label for="Culmino"><strong>Lugar: </strong></label>
+        <input type="radio" name="Culmino" value="si" checked> Si
+        <input type="radio" name="Culmino" value="no" checked> No        
+        <br>
+        <input type="submit" value="Enviar">
+    </form>
+    <ul title="Otros"> <strong>Otros Datos</strong> 
+        <li><strong>Teléfono: </strong> 9999-9999 </li>
+        <li><strong>Email: </strong> j.ros@gmail.com</li>
+        <li><strong>DNI: </strong> 2402-95423-1203</li>
+    </ul>
 </body>
 </html>
